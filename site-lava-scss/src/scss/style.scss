@@ -1,0 +1,141 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+header {
+  background-image: url(/site-lava-scss/assets/lava.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+}
+.navegar ul {
+  width: 100%;
+  list-style: none;
+  display: flex;
+  justify-content: end;
+  padding: 12px;
+  position: fixed;
+  backdrop-filter: blur(10px);
+  color: white;
+}
+.buttonMenu{
+    all: unset;
+    
+}
+.navegar li {
+  margin-left: 4vw;
+  padding-right: 6vw;
+  font-size: 12px;
+  letter-spacing: 1px;
+}
+.navegar li:hover{
+    color: #070613;
+}
+.principal {
+  display: block;
+  align-items: center;
+  justify-content: center;
+  padding-top: 40vh;
+  margin-left: 16vw;
+}
+
+.container {
+  background-color: rgb(18, 18, 18);
+  height: 50vh;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+.item {
+  margin: 1vh;
+}
+.containertwo {
+  background-color: #1d1d1e;
+  color: white;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.cards ul {
+  list-style: none;
+  display: flex;
+}
+.viagens {
+  background-position: center;
+  background-size: cover;
+  align-content: end;
+  flex-direction: column;
+  margin: 3vh;
+  width: 20vw;
+  height: 60vh;
+  border-radius: 20px;
+  padding: 4vh;
+  box-shadow: 0 4px 60px rgb(0, 0, 0);
+}
+.viagens.navio{
+    background-image: url(/site-lava-scss/assets/navio.jpeg);
+}
+.viagens.floresta{
+    background-image: url(/site-lava-scss/assets/floresta.jpeg);
+}
+.viagens.oceano{
+    background-image: url(/site-lava-scss/assets/oceano.jpeg);
+}
+.viagens:hover{
+    border-radius: 80px;
+    text-shadow: 1px 1px #070613;
+}
+
+.containertree {
+  color: white;
+  height: 61vh;
+  background-color: rgb(18, 18, 18);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+#Titulo{
+    margin: 2vh;
+}
+#sub-tiltulo{
+    margin-bottom: 4vh;
+}
+.caixaEntrada{
+    all: unset;
+    background-color: rgb(30, 30, 30);
+    width: 28vw;
+    height: 9vh;
+    border-color:rgb(36, 35, 35);
+    border-style: solid ;
+    border-width: 0.5vh ;
+    margin: 2vh;
+}
+.caixaEntrada:hover{
+   border-color: rgb(3, 3, 3);
+}
+.formsButton{
+    all: unset;
+    width: 12vw;
+    height: 8vh;
+    color: rgb(164, 162, 162);
+    background-color: rgb(18, 18, 18);
+    border-style: solid ;
+    border-width: 0.5vh ;
+    margin: 2vh;
+}
+.formsButton:hover{
+    color: rgb(3, 3, 3);
+}
+footer {
+  background-color: #1d1d1e;
+  height: 40vh;
+}

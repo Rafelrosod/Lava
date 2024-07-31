@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,23 +9,77 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="../site-lava-scss/dist/css/style.css">
 </head>
+
 <body>
     <header>
-        <nav>
+        <nav class="navegar">
             <ul>
                 <li>ABOUT</li>
                 <li>ARTICLES</li>
-                <li><button>SUBSCRIBE</button></li>
+                <li><button class="buttonMenu">SUBSCRIBE</button></li>
             </ul>
         </nav>
+        <div class="principal">
+            <h1>Lava</h1>
+            <h2>BLACK SAND BEACH</h2>
+        </div>
     </header>
     <main>
-        <section>
-            <img src="/site-lava-scss/assets/lava.jpg" alt="Lava Beach">
+        <section class="container">
+            <h3 class="item">Slow travelling</h3>
+            <h3 class="item">A travel Blog</h3>
+            <p class="item">Beach tourism is a popular vacation choice for people around the world. It offers a chance
+                to relax,<br> enjoy the sun, and experience the beauty of the ocean. Activities such as swimming,
+                sunbathing,<br> beach volleyball, and water sports are common. Coastal towns often provide a variety
+                of<br> accommodations, from luxury resorts to budget-friendly hotels, and feature restaurants that<br>
+                serve fresh seafood. </p>
+        </section>
+        <section class="containertwo">
+            <div class="title">
+                <h3>Lastest articles</h3>
+                <h5>Our most Recent Posts</h5>
+            </div>
+            <div class="cards">
+                <ul>
+                    <li>
+                        <div class="viagens navio">
+                            <h4>TUNZA</h4>
+                            <h5>RUGGED PORT</h5>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="viagens floresta">
+                            <h4>TIMOR</h4>
+                            <h5>UNTOOCMLD BEACHELS</h5>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="viagens oceano">
+                            <h4>LOMBOOK</h4>
+                            <h5>INDLESS LAVA</h5>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="containertree">
+                <h3 id="Titulo">Sabscribe</h3>
+                <h5 id="sub-titulo">SING-UP TO OUR NEWLETTERS</h5>
+            <div >
+                <form>
+                    <input class="caixaEntrada" type="text" name="email" id="forms" value="Your e-mail"><br>
+                    <button class="formsButton" type="submit">Enviar</button>
+                </form>
+            </div>
         </section>
     </main>
     <footer>
-
+        <ul>
+            <li>ABOUT</li>
+            <li>ARTICLES</li>
+            <li>SUBSCRIBE</li>
+        </ul>
     </footer>
 </body>
+
 </html>
