@@ -139,3 +139,20 @@ footer {
   background-color: #1d1d1e;
   height: 40vh;
 }
+footer{
+  display: flex;
+  align-items: center;
+}
+.rodape ul{
+  color: white;
+  width: 100%;
+  list-style: none;
+  margin-left: 55vw;
+}
+.rodape li{
+  display: inline;
+  margin: 1vw;
+}
+.rodape li:hover{
+  color: black;
+}
